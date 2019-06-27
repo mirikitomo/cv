@@ -86,21 +86,21 @@ progress[aria-valuenow]:before  {
 
 /* Firefox */
 progress:not([value])::-moz-progress-bar {
-  background-image:  url(Images/indeter.gif);
+  background-image:  url(https://giphy.com/embed/SXsSi0Ak7AQHjb0NhR);
 }
 
 /* Chrome */
 progress:not([value])::-webkit-progress-bar {
-  background-image:  url(Images/indeter.gif);
+  background-image:  url(https://giphy.com/embed/SXsSi0Ak7AQHjb0NhR);
 }
 
 /* Polyfill - IE */
 progress[role]{
-	background-image: url(Images/indeter.gif) !important;
+	background-image: url(https://giphy.com/embed/SXsSi0Ak7AQHjb0NhR) !important;
 }
 
 /* Polyfill - Safari */
 progress:not([value])  {
-	background-image: url(Images/indeter.gif) !important;
+	background-image: url(https://giphy.com/embed/SXsSi0Ak7AQHjb0NhR) !important;
 	background-size: auto;  /* Needs to be in here for Safari */
 }
