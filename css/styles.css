@@ -103,3 +103,4 @@ progress[role]{
 progress:not([value])  {
 	background-image: url(../images/indeter.gif) !important;
 	background-size: auto;  /* Needs to be in here for Safari */
+}
