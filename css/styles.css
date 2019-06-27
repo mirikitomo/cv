@@ -86,20 +86,20 @@ progress[aria-valuenow]:before  {
 
 /* Firefox */
 progress:not([value])::-moz-progress-bar {
-  background-image:  url(../images/indeter.gif);
+  background-image:  url(../cv/images/indeter.gif);
 }
 
 /* Chrome */
 progress:not([value])::-webkit-progress-bar {
-  background-image:  url(../images/indeter.gif);
+  background-image:  url(../cv/images/indeter.gif);
 }
 
 /* Polyfill - IE */
 progress[role]{
-	background-image: url(../images/indeter.gif) !important;
+	background-image: url(../cv/images/indeter.gif) !important;
 }
 
 /* Polyfill - Safari */
 progress:not([value])  {
-	background-image: url(../images/indeter.gif) !important;
+	background-image: url(../cv/images/indeter.gif) !important;
 	background-size: auto;  /* Needs to be in here for Safari */
